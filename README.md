@@ -14,4 +14,4 @@ The APACHE II ("Acute Physiology And Chronic Health Evaluation II") is a severit
   - calculate_apache2_final() combines all calculations above. Query like this: calculate_apache2_final(abp,temperature,heart_bpm,respiratory_rate,oxygenation,ph,sodium,potassium,hematocrit,wbc,age,scd,aki,creatinine,gcs) e.g. *calculate_apache(60,37,90,20,300,7.7,190,7,50,22,44,"NO NSCD",1,7,15)*
 
 
-* licensed under GNU General Public License v3.0 * 
+*licensed under GNU General Public License v3.0*
