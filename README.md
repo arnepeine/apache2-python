@@ -6,9 +6,12 @@ The APACHE II ("Acute Physiology And Chronic Health Evaluation II") is a severit
 
 
 # Instructions
-- The script contains 4 main functions
+- The script contains four main functions
   - in_range() calculates whether a value is within the limits
   - calculate_single_scores() calcuates values for a single value, e.g. calculate_single_scores (80, "abp") calculates the single score for a mean arterial blood pressure of 80
   - calulate_apache2_physiology() calculates the Acute Physiology Score
   - chronic_health_score() calculates the chronic health points 
   - calculate_apache2_final() combines all calculations above. Query like this: calculate_apache2_final(abp,temperature,heart_bpm,respiratory_rate,oxygenation,ph,sodium,potassium,hematocrit,wbc,age,scd,aki,creatinine,gcs) e.g. *calculate_apache(60,37,90,20,300,7.7,190,7,50,22,44,"NO NSCD",1,7,15)*
+
+
+* licensed under GNU General Public License v3.0 * 
