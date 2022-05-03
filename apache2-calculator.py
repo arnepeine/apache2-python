@@ -48,7 +48,7 @@ def calculate_single_scores (value, selector):
     elif selector is "temperature":
         value_ranges = ([41,50,4],[39,40.9,3],[38.5,38.9,1],[36,38.9,0],[34,35.9,1],[32,33.9,2],[30,31.9,3],[19,29.9,4])
     elif selector is "heart_bpm":
-        value_ranges = ([180,300,4],[140,179,3],[110,139,2],[70,109,0],[55,69,2],[40,45,4],[0,49,4])
+        value_ranges = ([180,300,4],[140,179,3],[110,139,2],[70,109,0],[55,69,2],[40,54,3],[0,39,4])
     elif selector is "respiratory_rate":
         value_ranges = ([50,100,4],[35,49,3],[25,34,2],[12,24,0],[10,11,1],[6,9,2],[0,5,4])
     elif selector is "oxygenation": # see explanation!
